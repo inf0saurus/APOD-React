@@ -1,8 +1,7 @@
 export default function Main() {
   return (
-    <div>
-      <h2>Astronomy Picture of the Day</h2>
-      <p>Welcome to the APOD viewer!</p>
+    <div className="imgContainer">
+      <img src="mars.png" alt="Mars Demo pic" className="bgImage" />
     </div>
   )
 }
